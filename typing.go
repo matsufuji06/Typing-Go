@@ -7,6 +7,7 @@ func main() {
 	totalScore += ask(2, "cat")
 	totalScore += ask(3, "fish")
 
+	fmt.Println("スコア", totalScore)
 }
 
 func ask(number int, question string) int {
