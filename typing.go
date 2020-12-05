@@ -4,8 +4,11 @@ import "fmt"
 
 func main() {
 	fmt.Println("Hello")
+	ask("dog")
+	ask("cat")
+	ask("fish")
 }
 
-func ask() {
-	
+func ask(question string) {
+	fmt.Printf("次の単語を入力してください: %s\n", question)
 }
