@@ -3,14 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	ask("dog")
-	ask("cat")
-	ask("fish")
+	ask(1, "dog")
+	ask(2, "cat")
+	ask(3, "fish")
 }
 
-func ask(question string) {
+func ask(number int, question string) {
 	var input string
-	fmt.Printf("次の単語を入力してください: %s\n", question)
+	fmt.Printf("[質問%d] 次の単語を入力してください: %s\n", number, question)
 	fmt.Scan(&input)
 
 	if question == input {
