@@ -6,9 +6,9 @@ import "time"
 func main() {
 	start := time.Now();
 
-	totalScore := ask(1, "dog")
-	totalScore += ask(2, "cat")
-	totalScore += ask(3, "fish")
+	totalScore := ask(1, "html")
+	totalScore += ask(2, "css")
+	totalScore += ask(3, "ruby")
 
 	end := time.Now()
 
